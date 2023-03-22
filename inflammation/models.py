@@ -22,6 +22,10 @@ def daily_mean(data):
     """Calculate the daily mean of a 2d inflammation data array."""
     return np.mean(data, axis=0)
 
+def daily_std(data):
+    """Calculate the daily mean of a 2d inflammation data array."""
+    return np.std(data, axis=0)
+
 
 def daily_max(data):
     """Calculate the daily max of a 2d inflammation data array."""
